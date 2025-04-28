@@ -4,16 +4,15 @@
 
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
-    public String getHeader() {
-        return " A O C ";
-    }
-
     public static void main(String[] args) {
-        System.out.println(new App().getHeader());
-        System.out.println(new App().getGreeting());
+        System.out.println("Advent of Code 2024\n");
+
+        DayOne dayOne = new DayOne();
+        System.out.println(dayOne.getResultA());
+        System.out.println(dayOne.getResultB());
+
+        DayOne dayTwo = new DayOne();
+        System.out.println(dayTwo.getResultA());
+        System.out.println(dayTwo.getResultB());
     }
 }
