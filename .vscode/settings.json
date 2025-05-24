@@ -2,5 +2,6 @@
     "java.project.sourcePaths": [
         "aoc/app/src/main/java/aoc",
         "aoc/aoc/src/main/java/aoc"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
